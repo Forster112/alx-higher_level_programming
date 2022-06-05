@@ -1,0 +1,8 @@
+# 0x03-python-data_structures
+
+## Tasks
+
+|task | function | duty |
+|-----|----------|------|
+|0-print_list_integer.py | def print_list_integer(my_list=[]): | prints all items in a list on separate lines |
+|1-element_at.py | def element_at(my_list, idx): | prints element of a list at an index |
