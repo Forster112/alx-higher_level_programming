@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
 def add_tuple(tuple_a=(), tuple_b=()):
-    if tuple_a < 2 or tuple_b < 2:
-        tuple_a.append(0)
-        tuple_b.append(0)
-    elif tuple_a > 2 or tuple_b > 2:
+    if len(tuple_a < 2) or len(tuple_b < 2):
+        tuple_a = (0, 0)
+        tuple_b = (0, 0)
+    elif len(tuple_a > 2) or len(tuple_b > 2):
         tuple_a = (0, 0)
         tuple_b = (0, 0)
     else:
