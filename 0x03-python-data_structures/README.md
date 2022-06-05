@@ -9,3 +9,4 @@
 | 2-replace_in_list.py | def replace_in_list(my_list, idx, element): | replaces an element of a list at a position |
 | 3-print_reversed_list_integer.py | def print_reversed_list_integer(my_list=[]): | prints elements of a list in reverse order |
 | 4-new_in_list.py | def new_in_list(my_list, idx, element): | replaces an element of a list without modifying the original |
+| 5-no_c.py | def no_c(my_string): | removes capital and small 'c' from a string |
