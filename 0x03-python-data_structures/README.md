@@ -14,3 +14,4 @@
 | 7-add_tuple.py | def add_tuple(tuple_a=(), tuple_b=()): | adds two turple together |
 | 8-multiple_returns.py | def multiple_returns(sentence): | returns length of string and the first letter |
 | 9-max_integer.py | def max_integer(my_list=[]): | finds the biggest integer of a list |
+| 10-divisible_by_2.py | def divisible_by_2(my_list=[]): | finds all multiples of two in a list |
