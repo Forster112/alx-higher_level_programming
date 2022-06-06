@@ -16,3 +16,5 @@
 | 9-max_integer.py | def max_integer(my_list=[]): | finds the biggest integer of a list |
 | 10-divisible_by_2.py | def divisible_by_2(my_list=[]): | finds all multiples of two in a list |
 | 11-delete_at.py | def delete_at(my_list=[], idx=0): | deletes the item at a specific position in a list |
+| 12-switch.py | none | switch the value of a and b |
+
