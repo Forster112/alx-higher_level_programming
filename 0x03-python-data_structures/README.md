@@ -13,3 +13,4 @@
 | 6-print_matrix_integer.py | def print_matrix_integer(matrix=[[]]): | prints the matrix of integers |
 | 7-add_tuple.py | def add_tuple(tuple_a=(), tuple_b=()): | adds two turple together |
 | 8-multiple_returns.py | def multiple_returns(sentence): | returns length of string and the first letter |
+| 9-max_integer.py | def max_integer(my_list=[]): | finds the biggest integer of a list |
