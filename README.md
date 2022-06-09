@@ -5,6 +5,7 @@ This repository contains programs written for the higher-level programming track
 * 0x01-python-if_else_loops_functions
 * 0x02-python-import_modules
 * 0x03-python-data_structures
+* 0x04-python-more_data_structures
 ## Author :
 * Udemezue Forster Chidiebere <miguel>
 ## Acknowledgements 🙏
