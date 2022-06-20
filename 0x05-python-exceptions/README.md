@@ -14,3 +14,4 @@ project for python exceptions
 | 5-raise_exceptions.py | def raise_exception(): | function that raises a type exception |
 | 6-raise_exception_msg.py | def raise_exception_msg(message=""): | function that raises a name exception with a message |
 | 100-safe_print_integer_err.py | def safe_print_integer_err(value): | function that prints an integer and error in stdrr |
+| 101-safe_function.py | def safe_function(fct, *args): | function that executes a function safely |
