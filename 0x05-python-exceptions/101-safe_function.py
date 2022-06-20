@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-from ast import arg
 import sys
 def safe_function(fct, *args):
     try:
