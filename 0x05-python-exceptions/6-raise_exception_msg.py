@@ -3,6 +3,5 @@ from email import message
 
 
 def raise_exception_msg(message=""):
-    print(message)
-    raise NameError
+    raise NameError(message)
 
