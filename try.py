@@ -1,3 +1,6 @@
+from os import minor
+
+
 class Human:
     
     def __init__(self, name="", age=0, complesion=""):
@@ -13,10 +16,9 @@ class Human:
         
     @name.setter
     def name(self, value):
-        if value:
-            self.__name = value
-        else:
+        if not isinstance(value, str):
             print("name cant be empty or a number")
+        self.__name = value
             
     @property
     def age(self):
@@ -26,10 +28,9 @@ class Human:
 
     @age.setter
     def age(self, value):
-        if value.isdigit():
-            self.__age = value
-        else:
+        if not isinstance(value, int):
             print("age cant be empty or a string")
+        self.__age = value
             
     @property
     def complesion(self):
@@ -39,10 +40,9 @@ class Human:
 
     @complesion.setter
     def complesion(self, value):
-        if value:
-            self.__complesion = value
-        else:
-            print("complesion cant be empty or a number")
+        if not isinstance(value, str):
+            print("name cant be empty or a number")
+        self.__complesion = value
             
             
     def getTheHuman(self):
@@ -54,7 +54,7 @@ def main():
     anonymous = Human()
     
     name = input("What is your name: ")
-    age = input("What is your age: ")
+    age = int(input("What is your age: "))
     complesion = input("What is your complesion: ")
     
     anonymous.name = name

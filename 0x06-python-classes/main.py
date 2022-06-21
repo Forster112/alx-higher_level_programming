@@ -1,17 +1,16 @@
-Square = __import__('3-square').Square
+Square = __import__('6-square').Square
 
 my_square_1 = Square(3)
-print("Area: {}".format(my_square_1.area()))
+my_square_1.my_print()
 
-try:
-    print(my_square_1.size)
-except Exception as e:
-    print(e)
+print("--")
 
-try:
-    print(my_square_1.__size)
-except Exception as e:
-    print(e)
+my_square_2 = Square(3, (1, 1))
+my_square_2.my_print()
 
-my_square_2 = Square(5)
-print("Area: {}".format(my_square_2.area()))
+print("--")
+
+my_square_3 = Square(3, (3, 0))
+my_square_3.my_print()
+
+print("--")
