@@ -57,7 +57,7 @@ class Square:
             for k in range(self.__size):
                 print("#", end="")
             print()
-            
+
     def __str__(self):
         if self.__size != 0:
             for i in range(self.__position[1]):
