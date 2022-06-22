@@ -78,3 +78,10 @@ path = "/"
 dir_list = os.listdir(path)
 print("files and directory in '", path, "' :")
 print(dir_list)
+
+
+print("Os name is: ", os.name)
+
+
+size = os.path.getsize("/")
+print("Size of the file is", size," bytes.")
