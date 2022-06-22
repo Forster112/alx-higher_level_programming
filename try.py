@@ -1,6 +1,9 @@
-from os import minor
+import os
 
-
+"""Personal try of class method
+    Helped me in doing my Alx task
+        lit
+            """
 class Human:
     
     def __init__(self, name="", age=0, complesion=""):
@@ -68,3 +71,10 @@ def main():
     print(anonymous.getTheHuman())
     
 main()
+
+
+"""Checking the awesome os module"""
+path = "/"
+dir_list = os.listdir(path)
+print("files and directory in '", path, "' :")
+print(dir_list)
