@@ -17,10 +17,10 @@ def matrix_divided(matrix, div):
     if matrix is None or len(matrix) is 0 or len(matrix[0]) is 0:
         raise TypeError(wrong_type)
     then = len(matrix[0])
-    
+
     try:
         for count, row in enumerate(matrix):
-            if type(row) is not list:
+            if not isinstance(row, list):
                 raise TypeError(wrong_type)
             if len(row) != then:
                 raise TypeError(wrong_size)
