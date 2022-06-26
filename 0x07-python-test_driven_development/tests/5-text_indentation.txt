@@ -21,3 +21,33 @@ Now Use it
     oh! now i know.
     <BLANKLINE>
 
+    >>> t = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    >>> text_indentation(t)
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <BLANKLINE>
+
+    >>> text_indentation("   a lot more space:   ya you want more?   ok enough    i said enough.")
+    a lot more space:
+    <BLANKLINE>
+    ya you want more?
+    <BLANKLINE>
+    ok enough i said enough.
+    <BLANKLINE>
+
+    >>> text_indentation(12)
+    Traceback (most recent call last):
+        ...
+    TypeError: text must be a string
+
+    >>> text_indentation(1 + 1)
+    Traceback (most recent call last):
+        ...
+    TypeError: text must be a string
+
+    >>> text_indentation(None)
+    Traceback (most recent call last):
+        ...
+    TypeError: text must be a string
+
+    >>> text_indentation("Michael" + " " + "Forster")
+    Michael Forster
