@@ -20,6 +20,9 @@ Now Use it
     >>> say_my_name("Bob")
     My name is Bob 
 
+    >>> say_my_name("12", "Michael")
+    My name is 12 Michael
+
     >>> say_my_name(12, "White")
     Traceback (most recent call last):
         ...
