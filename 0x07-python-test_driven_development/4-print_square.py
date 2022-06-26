@@ -1,5 +1,14 @@
 #!/usr/bin/python3
 def print_square(size):
+    """Function that prints ``#`` in place of the square of the given size
+
+    Args:
+        size(int): The size of ``#`` to be printed
+                    if size is not int raise TypeError with message
+                    if size is less than 0 raise ValueError with message
+                    else print # in place of square of size
+                    followed by newline
+    """
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
     if size < 0:
