@@ -1,0 +1,18 @@
+=========================
+5-text_indentation module
+=========================
+
+``text_indentation`` will take an argument ``text`` which must be a string else raise TypeError with specified message
+if any position of string is equals `:` or `.` or `?` print text and two new lines else print text
+
+::
+
+Importing function from the module:
+    >>> text_indentation = __import__("5-text_indentation").text_indentation
+
+Now Use it
+    >>> text_indentation("My name is Michael.")
+    My name is Michael
+
+
+    
