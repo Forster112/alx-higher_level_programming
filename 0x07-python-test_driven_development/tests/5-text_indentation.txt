@@ -31,7 +31,7 @@ Now Use it
     <BLANKLINE>
     ya you want more?
     <BLANKLINE>
-    ok enough i said enough.
+    ok enough    i said enough.
     <BLANKLINE>
 
     >>> text_indentation(12)
