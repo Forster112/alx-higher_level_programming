@@ -7,7 +7,7 @@ def add_integer(a, b=98):
         b (int/ float): integer to be added with default value 98
         """
     
-    if b is None or (type(a) is not int and type(a) is not float):
+    if a is None or (type(a) is not int and type(a) is not float):
         """a must be an int or float else raise TypeError"""
         raise TypeError("a must be an integer")
     if b is None or (type(b) is not int and type(b) is not float):
