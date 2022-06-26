@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+"""Module that prints square of a value as `#`"""
+
+
 def print_square(size):
     """Function that prints ``#`` in place of the square of the given size
 
