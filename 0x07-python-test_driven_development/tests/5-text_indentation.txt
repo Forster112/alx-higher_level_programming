@@ -12,7 +12,12 @@ Importing function from the module:
 
 Now Use it
     >>> text_indentation("My name is Michael.")
-    My name is Michael
+    My name is Michael.
+    <BLANKLINE>
 
+    >>> text_indentation("My name is Michael? oh! now i know.")
+    My name is Michael?
+    <BLANKLINE>
+    oh! now i know.
+    <BLANKLINE>
 
-    
