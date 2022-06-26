@@ -7,7 +7,7 @@ def matrix_divided(matrix, div):
         matrix(list of list): matrix to be divided
         div(int or float): number to divide the matrix with
     """
-    if type(div) is not int and type(div) is not float:
+    if not isinstance(div, (int, float)):
         raise TypeError("div must be a number")
     elif div is 0:
         raise ZeroDivisionError("division by zero")
@@ -27,7 +27,7 @@ def matrix_divided(matrix, div):
             then = len(row)
             new_matrix.append(row[:])
             for ind, item in enumerate(row):
-                if type(item) is not int and type(item) is not float:
+                if not isinstance(item, (int, float)):
                     raise TypeError(wrong_type)
                 new_matrix[count][ind] = round(item / div, 2)
     except:
