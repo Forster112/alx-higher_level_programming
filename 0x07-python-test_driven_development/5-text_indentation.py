@@ -8,7 +8,7 @@ def text_indentation(text):
         while i < len(text):
             print(text[i], end="")
             if text[i] == '.' or text[i] == ':' or text[i] == '?':
-                print()
+                print('\n')
                 if i == len(text) - 1:
                     break
                 if text[i + 1] == ' ':
