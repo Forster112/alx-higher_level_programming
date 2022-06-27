@@ -4,4 +4,5 @@
 
 
 class Rectangle:
+    """A class that defines a Rectangle that does nothing at this point"""
     pass
