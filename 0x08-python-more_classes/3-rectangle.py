@@ -49,6 +49,7 @@ class Rectangle:
         return r_perimeter
 
     def __str__(self):
+        """function that prints a rectangle as #"""
         if self.__width == 0 or self.__height == 0:
             return ""
         h_rectangle = []
