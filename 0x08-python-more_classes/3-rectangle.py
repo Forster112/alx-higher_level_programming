@@ -49,13 +49,12 @@ class Rectangle:
         return r_perimeter
 
     def __str__(self):
-        """function that prints a rectangle as #"""
+        """function that prints a rectangle with #"""
         if self.__width == 0 or self.__height == 0:
             return ""
-        h_rectangle = []
         for i in range(self.__height):
             for j in range(self.__width):
-                h_rectangle.append("#")
+                print("#", end="")
             if i != self.__height -1:
-                h_rectangle.append("\n")
-        return ''.join(h_rectangle)
+                print()
+        return ""
