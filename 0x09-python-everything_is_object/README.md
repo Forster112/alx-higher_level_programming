@@ -11,3 +11,5 @@
 | [2-answer.txt](2-answer.txt) | answer of No if a = 89, b = 100 points to the same object |
 | [3-answer.txt](3-answer.txt) | answer of Yes if a = 89, b = 89 points to the same object |
 | [4-answer.txt](4-answer.txt) | answer of Yes if a = 89, b = a points to the same object |
+| [5-answer.txt](5-answer.txt) | answer of No if a = 89, b = a + 1 points to the same object |
+| [6-answer.txt](6-answer.txt) | answer of True of what will s1 = 'School', s2 = s1 print when s1 == s2 is printed |
