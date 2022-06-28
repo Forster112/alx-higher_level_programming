@@ -10,6 +10,7 @@ This repository contains programs written for the higher-level programming track
 * [0x06-python-classes](0x06-python-classes)
 * [0x07-python-test_driven_development](0x07-python-test_driven_development)
 * [0x08-python-more_classes](0x08-python-more_classes)
+* [0x09-python-everything_is_object](0x09-python-everything_is_object)
 
 ## Author :
 * Udemezue Forster Chidiebere <miguel>

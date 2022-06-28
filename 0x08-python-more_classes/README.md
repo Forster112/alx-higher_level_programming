@@ -16,4 +16,4 @@
 | [7-rectangle.py](7-rectangle.py) | None | new public class attribute "print_symbol" that prints the rectangle with any given string symbol `from [6-rectangle.py](6-rectangle.py) |
 | [8-rectangle.py](8-rectangle.py) | def bigger_or_equal(rect_1, rect_2): | staticmethod that returns biggest rectangle based on area `from [7-rectangle.py](7-rectangle.py) |
 | [9-rectangle.py](9-rectangle.py) | def square(cls, size=0): | new classmethod that prints new instance where width and height is equal size `from [8-rectangle.py](8-rectangle.py) |
-| [101-nqueens.py](101-nqueens.py) | A lot | Solves the N-queen puzzle |
+| [101-nqueens.py](101-nqueens.py) | A lot | Solves the N-queen puzzle(bug) |
