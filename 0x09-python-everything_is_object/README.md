@@ -23,6 +23,6 @@
 | [14-answer.txt](14-answer.txt) | None | answer of [1, 2, 3, 4] of what will l1 = [1, 2, 3], l2 = l1, l1.append(4) print when l2 is printed |
 | [15-answer.txt](15-answer.txt) | None | answer of [1, 2, 3] of what will l1 = [1, 2, 3], l2 = l1, l1 + [4] print when l2 is printed |
 | [16-answer.txt](16-answer.txt) | def increment(n): n += 1 | answer of 1 of what will a = 1, increment(a) print when a is printed |
-| [17-answer.txt](17-answer.txt) | def increment(n): n.append(4) | answer of [1, 2, 3, 4] of what will l = [1, 2, 3], increment(l) print when l is printed |
-| [18-answer.txt](18-answer.txt) | def assign_value(n, v): n = v | answer of [4, 5, 6] of what will l1 = [1, 2, 3], l2 = [4, 5, 6], assign_value(l1, l2) print when l1 is printed |
+| [17-answer.txt](17-answer.txt) | def increment(n): n.append(4) | answer of [1, 2, 3] of what will l = [1, 2, 3], increment(l) print when l is printed |
+| [18-answer.txt](18-answer.txt) | def assign_value(n, v): n = v | answer of [1, 2, 3] of what will l1 = [1, 2, 3], l2 = [4, 5, 6], assign_value(l1, l2) print when l1 is printed |
 | [19-answer.txt](19-answer.txt) | def copy_list(l): | A fuction that returns a copy of any object |
