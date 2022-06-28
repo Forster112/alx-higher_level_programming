@@ -26,3 +26,7 @@
 | [17-answer.txt](17-answer.txt) | def increment(n): n.append(4) | answer of [1, 2, 3, 4] of what will l = [1, 2, 3], increment(l) print when l is printed |
 | [18-answer.txt](18-answer.txt) | def assign_value(n, v): n = v | answer of [1, 2, 3] of what will l1 = [1, 2, 3], l2 = [4, 5, 6], assign_value(l1, l2) print when l1 is printed |
 | [19-answer.txt](19-answer.txt) | def copy_list(l): | A fuction that returns a copy of any object |
+| [20-answer.txt](20-answer.txt) | None | answer `Yes` if a = () is a turple |
+| [21-answer.txt](21-answer.txt) | None | answer `Yes` if a = (1, 2) is a turple |
+| [22-answer.txt](22-answer.txt) | None | answer `Yes` if a = (1) is a turple |
+| [23-answer.txt](23-answer.txt) | None | answer `Yes` if a = (1, ) is a turple |
