@@ -16,3 +16,8 @@
 | [7-answer.txt](7-answer.txt) | answer of True of what will s1 = 'Best', s2 = s1 print when s1 is s2 is printed |
 | [8-answer.txt](8-answer.txt) | answer of True of what will s1 = 'Best School', s2 = 'Best School' print when s1 == s2 is printed |
 | [9-answer.txt](9-answer.txt) | answer of True of what will s1 = 'Best School', s2 = 'Best School' print when s1 is s2 is printed |
+| [10-answer.txt](10-answer.txt) | answer of True of what will l1 = [1, 2, 3], l2 = [1, 2, 3] print when l1 == l2 is printed
+| [11-answer.txt](11-answer.txt) | answer of False of what will l1 = [1, 2, 3], l2 = [1, 2, 3] print when l1 is l2 is printed
+| [12-answer.txt](12-answer.txt) | answer of True of what will l1 = [1, 2, 3], l2 = l1 print when l1 == l2 is printed
+| [13-answer.txt](13-answer.txt) | answer of True of what will l1 = [1, 2, 3], l2 = l1 print when l1 is l2 is printed
+| [14-answer.txt](14-answer.txt) | answer of [1, 2, 3, 4] of what will l1 = [1, 2, 3], l2 = l1, l1.append(4) print when l2 is printed
