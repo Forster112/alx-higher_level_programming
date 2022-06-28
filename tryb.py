@@ -15,4 +15,9 @@ def main():
 
 main()
 
+def inc(n):
+    n.append(4)
 
+l = [1, 2]
+inc(l)
+print(l)
