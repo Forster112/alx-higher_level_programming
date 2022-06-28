@@ -30,3 +30,8 @@
 | [21-answer.txt](21-answer.txt) | None | answer `Yes` if a = (1, 2) is a turple |
 | [22-answer.txt](22-answer.txt) | None | answer `No` if a = (1) is a turple |
 | [23-answer.txt](23-answer.txt) | None | answer `Yes` if a = (1, ) is a turple |
+| [24-answer.txt](24-answer.txt) | None | answer `True` if a = (1), b = (1) is same object |
+| [25-answer.txt](25-answer.txt) | None | answer `False` if a = (1, 2), b = (1, 2) is same object |
+| [26-answer.txt](26-answer.txt) | None | answer `False` if a = (), b = () is same object |
+| [27-answer.txt](27-answer.txt) | None | answer `No` in response to id |
+| [28-answer.txt](28-answer.txt) | None | answer `Yes` in response to id |
