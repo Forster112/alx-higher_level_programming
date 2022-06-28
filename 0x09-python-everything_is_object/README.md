@@ -35,3 +35,9 @@
 | [26-answer.txt](26-answer.txt) | None | answer `True` if a = (), b = () is same object |
 | [27-answer.txt](27-answer.txt) | None | answer `No` in response to id |
 | [28-answer.txt](28-answer.txt) | None | answer `Yes` in response to id |
+| [100-magic_string.py](100-magic_string.py) | def magic_string(bs=[]): | prints `BestSchool` according to loop |
+| [101-locked_class.py](101-locked_class.py) | class LockedClass | A class that prevents users new instance attribute except first_name |
+| [103-line1.txt](103-line1.txt) [103-line2.txt](103-line2.txt) | None | Multiple files answers to questions |
+| [104-line1.txt](104-line1.txt) [104-line2.txt](104-line2.txt) [104-line3.txt](104-line3.txt) [104-line4.txt](104-line4.txt) [104-line5.txt](104-line5.txt) | None | Multiple files answers to questions |
+| [105-line1.txt](105-line1.txt) | None | Multiple files answers to questions |
+| [106-line1.txt](106-line1.txt) [106-line2.txt](106-line2.txt) [106-line3.txt](106-line3.txt) [106-line4.txt](106-line4.txt) [106-line5.txt](106-line5.txt) | None | Multiple files answers to questions |
