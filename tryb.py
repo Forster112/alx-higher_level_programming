@@ -16,10 +16,8 @@ def main():
 main()
 
 
-def increment(n):
-    n.append(4)
-
-
-l = [1, 2, 3]
-increment(l)
-print(l)
+s1 = "Best School"
+print(id(s1))
+s2 = "Best School"
+print(id(s2))
+print(s1 is s2)
