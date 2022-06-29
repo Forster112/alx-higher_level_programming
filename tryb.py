@@ -15,9 +15,20 @@ def main():
 
 main()
 
+a = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+nel = []
+for i in a:
+    nel1 = []
+    for j in i:
+        nel1.append(j**2)
+    nel.append(nel1)
+print(nel)
+print(zip(nel))
 
-s1 = "Best School"
-print(id(s1))
-s2 = "Best School"
-print(id(s2))
-print(s1 is s2)
+b = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+new = [[x**2 for x in i] for i in b]
+print(new)
