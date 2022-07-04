@@ -9,7 +9,15 @@ Importing module
 
 ::
 
-Now Use it
+Now Use it for area
+    >>> bg = BaseGeometry()
+    >>> bg.area()
+    Traceback (most recent call last):
+    	      ...
+    Exception: area() is not implemented
+
+
+Now Use it for integer_validator
     >>> bg = BaseGeometry()
     >>> bg.integer_validator("my_int", 89)
 
