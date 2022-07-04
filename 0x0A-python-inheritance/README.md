@@ -11,3 +11,4 @@
 | [3-is_kind_of_class.py](3-is_kind_of_class.py) | def is_kind_of_class(obj, a_class) | checks if an object is an instance of a class or inherited class |
 | [4-inherits_from.py](4-inherits_from.py) | def inherits_from(obj, a_class) | checks if an object is an instance of an inherited class |
 | [5-base_geometry.py](5-base_geometry.py) | class BaseGeometry | An empty class that does nothing |
+| [6-base_geometry.py](6-base_geometry.py) | class BaseGeometry | A class that raises an exception |
