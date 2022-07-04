@@ -9,3 +9,4 @@
 | [1-my_list.py](1-my_list.py) | class MyList(list), def print_sorted() | class that prints a sorted list. Test file at [1-my_list.txt](1-my_list.txt) |
 | [2-is_same_class.py](2-is_same_class.py) | def is_same_class(obj, a_class): | A fuction that checks if an object is an instance of a class |
 | [3-is_kind_of_class.py](3-is_kind_of_class.py) | def is_kind_of_class(obj, a_class) | checks if an object is an instance of a class or inherited class |
+| [4-inherits_from.py](4-inherits_from.py) | def inherits_from(obj, a_class) | checks if an object is an instance of an inherited class |
