@@ -18,3 +18,8 @@
 | [10-student.py](10-student.py) | class Student, def to_json(self, attrs=None) | retrieves a dictionary representation of a Student instance |
 | [11-student.py](11-student.py) | class Student, def reload_from_json(self, json) | replaces all attributes of the student class |
 | [12-pascal_triangle.py](12-pascal_triangle.py) | def pascal_triangle(n) | Represents pascal triangle based on n |
+| [100-append_after.py](100-append_after.py) | def append_after(filename="", search_string="", new_string="") | Inserts text after each line containing a given string |
+
+
+
+# END
