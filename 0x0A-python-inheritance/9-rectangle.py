@@ -24,5 +24,6 @@ class Rectangle(BaseGeometry):
 
     def __str__(self):
         """str method that returns the class and width div height"""
-        string = f"[{str(self.__class__.__name__)}] {str(self.__width)}/{str(self.__height)}"
-        return string
+        st = f"[{str(self.__class__.__name__)}] {str(self.__width)}"
+        st += f"/{str(self.__height)}"
+        return st
