@@ -16,3 +16,4 @@
 | [8-class_to_json.py](8-class_to_json.py) | def class_to_json(obj) | returns the dictionary description with simple data structure for JSON serialization of an object |
 | [9-student.py](9-student.py) | class Student, def to_json(self) | returns dictionary representation of the class |
 | [10-student.py](10-student.py) | class Student, def to_json(self, attrs=None) | retrieves a dictionary representation of a Student instance |
+| [11-student.py](11-student.py) | class Student, def reload_from_json(self, json) | replaces all attributes of the student class |
