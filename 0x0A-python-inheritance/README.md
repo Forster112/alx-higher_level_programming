@@ -13,3 +13,4 @@
 | [5-base_geometry.py](5-base_geometry.py) | class BaseGeometry | An empty class that does nothing |
 | [6-base_geometry.py](6-base_geometry.py) | class BaseGeometry | A class that raises an exception |
 | [7-base_geometry.py](7-base_geometry.py) | class BaseGeometry, def integer_validator(self, name, value) | validates value int and greater than 0. test file at [7-base_geometry.txt](7-base_geometry.txt) |
+| [8-rectangle.py](8-rectangle.py) | class Rectangle(BaseGeometry) | child class of the BaseGeometry class that validates the width and height of a rectangle |
