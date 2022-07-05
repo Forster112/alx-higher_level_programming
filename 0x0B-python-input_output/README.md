@@ -12,3 +12,4 @@
 | [4-from_json_string.py](4-from_json_string.py) | def from_json_string(my_str): | converts json string to python |
 | [5-save_to_json_file.py](5-save_to_json_file.py) | def save_to_json_file(my_obj, filename): | writes an Object to a text file, using a JSON representation |
 | [6-load_from_json_file.py](6-load_from_json_file.py) | def load_from_json_file(filename): | creates an Object from a “JSON file” |
+| [7-add_item.py](7-add_item.py) | None | adds all arguments to a Python list, and then save them to a file |
