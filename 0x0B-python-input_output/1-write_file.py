@@ -9,5 +9,5 @@ def write_file(filename="", text=""):
         filename: name of file to write to,
             if none new one is created
         text: the text to write"""
-    with open(filename, encoding="utf-8") as f:
-        f.write(text)
+    with open(filename, "w", encoding="utf-8") as f:
+        return f.write(text)
