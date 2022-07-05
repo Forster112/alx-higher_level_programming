@@ -17,3 +17,4 @@
 | [9-student.py](9-student.py) | class Student, def to_json(self) | returns dictionary representation of the class |
 | [10-student.py](10-student.py) | class Student, def to_json(self, attrs=None) | retrieves a dictionary representation of a Student instance |
 | [11-student.py](11-student.py) | class Student, def reload_from_json(self, json) | replaces all attributes of the student class |
+| [12-pascal_triangle.py](12-pascal_triangle.py) | def pascal_triangle(n) | Represents pascal triangle based on n |
