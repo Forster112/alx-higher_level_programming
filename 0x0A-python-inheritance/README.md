@@ -14,5 +14,6 @@
 | [6-base_geometry.py](6-base_geometry.py) | class BaseGeometry | A class that raises an exception |
 | [7-base_geometry.py](7-base_geometry.py) | class BaseGeometry, def integer_validator(self, name, value) | validates value int and greater than 0. test file at [7-base_geometry.txt](7-base_geometry.txt) |
 | [8-rectangle.py](8-rectangle.py) | class Rectangle(BaseGeometry) | child class of the BaseGeometry class that validates the width and height of a rectangle |
-| [9-rectangle.py](9-rectangle.py) | class Rectangle(BaseGeometry), def area(self), def __str__(self) | implements the str method and solve the area of the rectangle from [8-rectangle.py](8-rectangle.py) |
+| [9-rectangle.py](9-rectangle.py) | class Rectangle(BaseGeometry), def area(self), def \_\_str\_\_(self) | implements the str method and solve the area of the rectangle from [8-rectangle.py](8-rectangle.py) |
 | [10-square.py](10-square.py) | class Square, def area() | calculates the area of a square from [9-rectangle.py](9-rectangle.py) |
+| [11-square.py](11-square.py) | class Square, def \_\_str\_\_() | implements str on Square code from [10-square.py](10-square.py) |
