@@ -18,3 +18,6 @@
 | [10-square.py](10-square.py) | class Square, def area() | calculates the area of a square from [9-rectangle.py](9-rectangle.py) |
 | [11-square.py](11-square.py) | class Square, def \_\_str\_\_() | implements str on Square code from [10-square.py](10-square.py) |
 | [100-my_int.py](100-my_int.py) | class MyInt(int), def \_\_eq\_\_(value), def \_\_ne\_\_(value) | switches the duty of equal and not equal |
+| [101-add_attribute.py](101-add_attribute.py) | def add_attribute(obj, attr, value) | adds attribute to an object |
+
+# END
