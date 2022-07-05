@@ -10,3 +10,4 @@
 | [2-append_write.py](2-append_write.py) | def append_write(filename="", text=""): | appends a text to a file |
 | [3-to_json_string.py](3-to_json_string.py) | def to_json_string(my_obj): | return json representation of a string |
 | [4-from_json_string.py](4-from_json_string.py) | def from_json_string(my_str): | converts json string to python |
+| [5-save_to_json_file.py](5-save_to_json_file.py) | def save_to_json_file(my_obj, filename): | writes an Object to a text file, using a JSON representation |
