@@ -9,3 +9,4 @@
 | [1-write_file.py](1-write_file.py) | def write_file(filename="", text=""): | writes a string to a file |
 | [2-append_write.py](2-append_write.py) | def append_write(filename="", text=""): | appends a text to a file |
 | [3-to_json_string.py](3-to_json_string.py) | def to_json_string(my_obj): | return json representation of a string |
+| [4-from_json_string.py](4-from_json_string.py) | def from_json_string(my_str): | converts json string to python |
