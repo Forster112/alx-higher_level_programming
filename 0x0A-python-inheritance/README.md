@@ -17,3 +17,4 @@
 | [9-rectangle.py](9-rectangle.py) | class Rectangle(BaseGeometry), def area(self), def \_\_str\_\_(self) | implements the str method and solve the area of the rectangle from [8-rectangle.py](8-rectangle.py) |
 | [10-square.py](10-square.py) | class Square, def area() | calculates the area of a square from [9-rectangle.py](9-rectangle.py) |
 | [11-square.py](11-square.py) | class Square, def \_\_str\_\_() | implements str on Square code from [10-square.py](10-square.py) |
+| [100-my_int.py](100-my_int.py) | class MyInt(int), def \_\_eq\_\_(value), def \_\_ne\_\_(value) | switches the duty of equal and not equal |
