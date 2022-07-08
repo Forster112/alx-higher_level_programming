@@ -1,4 +1,4 @@
-import datetime
+"""import datetime
 
 
 def is_week_day(day):
@@ -31,4 +31,17 @@ b = [[1, 2, 3],
      [4, 5, 6],
      [7, 8, 9]]
 new = [[x**2 for x in i] for i in b]
-print(new)
+print(new)"""
+
+def adds(f_arg, *args):
+    print("first argument: ", f_arg)
+    result = 0
+    for i in args:
+        result += i
+    return result
+
+print(adds(1, 2, 4, 5, 2, 5, 88, 22, 55, 3, 5))
+
+top = {"firstname":"michael", "other":"forster"}
+for key, value in range(top):
+    print(f"{key} = {value}")
