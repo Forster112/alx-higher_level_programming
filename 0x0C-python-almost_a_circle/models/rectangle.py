@@ -5,6 +5,7 @@ from models.base import Base
 
 class Rectangle(Base):
     """Rectangle class that inherites from Base class"""
+
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialization function
 
@@ -88,7 +89,7 @@ class Rectangle(Base):
     def display(self):
         """prints the area of the rectangle as `#`"""
         xyturple = (self.__x, self.__y)
-        for l in range(xyturple[1]):
+        for a in range(xyturple[1]):
             print()
         for i in range(self.__height):
             for j in range(xyturple[0]):
@@ -137,7 +138,7 @@ class Rectangle(Base):
                         self.__x = kwargs['x']
                     if key == 'y':
                         self.__y = kwargs['y']
-    
+
     def to_dictionary(self):
         dic = {}
         dic["id"] = self.id

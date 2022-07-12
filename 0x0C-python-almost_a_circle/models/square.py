@@ -4,6 +4,8 @@ from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
+    """Class Square that inherits from Rectangle class"""
+
     def __init__(self, size, x=0, y=0, id=None):
         """super initializing attributes"""
         super().__init__(
@@ -23,14 +25,20 @@ class Square(Rectangle):
 
     @property
     def size(self):
+        """getter size"""
         return self.width
 
     @size.setter
     def size(self, value):
+        """setter size"""
         self.width = value
         self.height = value
-    
+
     def update(self, *args, **kwargs):
+        """Assigns class attributes to argument
+            Args:
+                args: non key-word argument
+                kwargs: keyword argument"""
         if len(args) > 0:
             for i in range(len(args)):
                 if i == 0:
@@ -51,8 +59,9 @@ class Square(Rectangle):
                     self.x = kwargs["x"]
                 if key == "y":
                     self.y = kwargs["y"]
-    
+
     def to_dictionary(self):
+        """return dictionary representation of the attributes"""
         dic = {}
         dic["id"] = self.id
         dic["size"] = self.size
