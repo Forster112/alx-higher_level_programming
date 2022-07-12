@@ -17,7 +17,7 @@ class Base:
     
     @classmethod
     def save_to_file(cls, list_objs):
-        with open(cls.__class__.__name__.json, "w", encoding="utf-8") as f:
+        with open(cls.__class__.__name__, "w", encoding="utf-8") as f:
             if list_objs is None:
                 return f.write(Base.to_json_string())
             else:
