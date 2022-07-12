@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 """Defines Rectangle class"""
+
+
 from models.base import Base
 
 
 class Rectangle(Base):
-    """Rectangle class that inherites from Base class"""
+    """Rectangle class that inherites from Base class
+    and performs its rectangle"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialization function
@@ -17,14 +20,12 @@ class Rectangle(Base):
             id(int): id of the rectangle
                         increases when another rectangle is added
         """
+        super().__init__(id)
         self.width = width
         self.height = height
         self.x = x
         self.y = y
 
-        super().__init__(
-            id
-        )
 
     @property
     def width(self):
@@ -97,7 +98,6 @@ class Rectangle(Base):
             for k in range(self.__width):
                 print("#", end="")
             print()
-        return ("")
 
     def __str__(self):
         """returns str representation"""
@@ -140,6 +140,7 @@ class Rectangle(Base):
                         self.__y = kwargs['y']
 
     def to_dictionary(self):
+        """dictionary representation of the class"""
         dic = {}
         dic["id"] = self.id
         dic["width"] = self.__width
