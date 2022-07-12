@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines Rectangle class"""
+from turtle import width
 from models.base import Base
 
 
@@ -100,9 +101,14 @@ class Rectangle(Base):
 
     def __str__(self):
         """returns str representation"""
-        st = f"[{str(self.__class__.__name__)}] ({str(self.id)})"
-        st += f" {str(self.__x)}/{str(self.__y)} -"
-        st += f" {str(self.__width)}/{str(self.__height)}"
+        st = "[{}] ({}) {}/{} - {}/{}".format(
+            self.__class__.__name__,
+            self.id,
+            self.__x,
+            self.__y,
+            self.__width,
+            self.__height
+        )
         return st
 
     def update(self, *args, **kwargs):

@@ -12,8 +12,13 @@ class Square(Rectangle):
 
     def __str__(self):
         """returns str representation of the class"""
-        st = f"[{str(self.__class__.__name__)}] ({str(self.id)})"
-        st += f" {str(self.x)}/{str(self.y)} - {str(self.height)}"
+        st = "[{}] ({}) {}/{} - {}".format(
+            self.__class__.__name__,
+            self.id,
+            self.x,
+            self.y,
+            self.width
+        )
         return st
 
     @property
