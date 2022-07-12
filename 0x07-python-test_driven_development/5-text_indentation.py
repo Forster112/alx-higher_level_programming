@@ -4,11 +4,13 @@
 
 
 def text_indentation(text):
-    """``text_indentation``: a function that prints newline when it sees `.`, `:`, `?`
+    """``text_indentation``:
+            a function that prints newline when it sees `.`, `:`, `?`
 
     Args:
-        text(string): A string to be pinted and indented those character where seen
-        adds a blankline"""
+        text(string): A string to be pinted and indented those character
+        where seen adds a blankline
+    """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
     else:

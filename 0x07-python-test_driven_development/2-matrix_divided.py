@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """A module that divides a matrix by a given number"""
 
 
@@ -34,7 +33,7 @@ def matrix_divided(matrix, div):
                 if not isinstance(item, (int, float)):
                     raise TypeError(wrong_type)
                 new_matrix[count][ind] = round(item / div, 2)
-    except:
-        raise
+    except ValueError:
+        pass
     else:
         return (new_matrix)
