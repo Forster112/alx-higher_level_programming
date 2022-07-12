@@ -18,4 +18,4 @@ class Base:
     @classmethod
     def save_to_file(cls, list_objs):
         with open(cls.__class__.__name__, "w", encoding="utf-8") as f:
-            return f.write(list_objs)
+            return f.write(str(list_objs))
