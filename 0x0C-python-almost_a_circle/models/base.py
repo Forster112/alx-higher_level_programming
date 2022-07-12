@@ -1,4 +1,6 @@
 import json
+import csv
+import turtle
 class Base:
     __nb_objects = 0
     def __init__(self, id=None):
@@ -17,7 +19,7 @@ class Base:
     
     @classmethod
     def save_to_file(cls, list_objs):
-        filename = cls.__class__.__name__ + ".json"
+        filename = cls.__name__ + ".json"
         with open(filename, "w", encoding="utf-8") as f:
             if list_objs is None:
                 f.write("[]")
