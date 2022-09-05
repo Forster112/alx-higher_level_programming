@@ -1,4 +1,5 @@
 #!/usr/bin/node
-for (let i = 2; i < process.argv.length; i++) {
-  console.log(process.argv[i]);
+const lines = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+for (let i = 0; i < lines.length; i++) {
+  console.log(lines[i]);
 }
