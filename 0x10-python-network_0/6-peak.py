@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """finds the peak of an unsorted list"""
 
+
 def find_peak(list_of_integers):
     """finds the peak of a list"""
 
@@ -23,7 +24,6 @@ def find_peak(list_of_integers):
             return li[mid]
         else:
             return li[mid-1]
-
 
     if li[mid] > li[mid+1] and li[mid] > li[mid-1]:
         return li[mid]
