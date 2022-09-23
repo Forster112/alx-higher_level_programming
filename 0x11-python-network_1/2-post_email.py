@@ -13,5 +13,5 @@ if __name__ == "__main__":
     data = urllib.parse.urlencode(mail).encode("ascii")
 
     request = urllib.request.Request(link, data)
-    with urllip.request.urlopen(request) as f:
+    with urllib.request.urlopen(request) as f:
         print(f.read().decode("utf-8"))
